@@ -1,0 +1,4 @@
+#ANSWER 9
+# Python code to count the number of occurrences
+def countX(lst, x):
+    return ls
