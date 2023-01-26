@@ -1,0 +1,15 @@
+#ANSWER 5
+rows = int(input("Enter Right Triangle Consecutive Alphabets Rows = "))
+
+print("====The Right Triangle of Consecutive Alphabets Pattern====")
+alphabet = 65
+i = 0
+
+while(i < rows):
+    j = 0
+    while(j <= i):
+        print('%c' %alphabet, end = ' ')
+        alphabet = alphabet + 1
+        j = j + 1
+    print()
+    i = i + 1
